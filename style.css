@@ -1,0 +1,28 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.shopping-cart-list
+{
+
+    position:  absolute;
+    width: 25rem;
+    padding: 1rem;
+    right: -0.75rem;
+    top: 2.9rem;
+    z-index: 1;
+    /*z-index açılır pencerenin arka tarafa düşmesini engeller */
+
+}
+
+.shopping-cart-list .list-item
+{
+
+    margin-top: 1rem;
+
+}
